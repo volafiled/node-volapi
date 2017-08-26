@@ -1,0 +1,31 @@
+{
+  "name": "volapi",
+  "version": "0.2.0",
+  "description": "Client library for volafile.org",
+  "repository": "https://github.com/RealDolos/node-volapi",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "build:docs": "jsdoc -c ./.jsdoc.json"
+  },
+  "keywords": [
+    "volafile.org",
+    "volafile.io",
+    "volapi"
+  ],
+  "author": "RealDolos",
+  "license": "MIT",
+  "dependencies": {
+    "cookie": "^0.3.1",
+    "debug": "^2.6.8",
+    "node-fetch": "^2.0.0-alpha.8",
+    "socket.io-client": "^2.0.3"
+  },
+  "devDependencies": {
+    "docdash": "^0.4.0",
+    "global-request-logger": "^0.1.1",
+    "jsdoc": "^3.5.4"
+  }
+}
