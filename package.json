@@ -1,6 +1,6 @@
 {
   "name": "volapi",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Client library for volafile.org",
   "repository": "https://github.com/RealDolos/node-volapi",
   "main": "lib/index.js",
@@ -20,6 +20,7 @@
   "dependencies": {
     "cookie": "^0.3.1",
     "debug": "^2.6.8",
+    "form-data": "^2.3.1",
     "node-fetch": "^2.0.0-alpha.8",
     "socket.io-client": "^2.0.3"
   },
