@@ -19,10 +19,10 @@
   "license": "MIT",
   "dependencies": {
     "cookie": "^0.3.1",
-    "debug": "^2.6.8",
+    "debug": "^3.1.0",
+    "engine.io-client": "^3.1.4",
     "form-data": "^2.3.1",
-    "node-fetch": "^2.0.0-alpha.8",
-    "socket.io-client": "^2.0.3"
+    "node-fetch": "^2.0.0-alpha.9"
   },
   "devDependencies": {
     "docdash": "^0.4.0",
