@@ -1,6 +1,6 @@
 {
   "name": "volapi",
-  "version": "0.10.0",
+  "version": "1.0.0",
   "description": "Client library for volafile.org",
   "repository": "https://github.com/RealDolos/node-volapi",
   "main": "lib/index.js",
