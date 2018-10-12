@@ -2,12 +2,11 @@ module.exports = {
     "env": {
         "es6": true,
         "node": true,
-        "commonjs": true,
     },
     "extends": "eslint:recommended",
     "parserOptions": {
         "sourceType": "script",
-        "ecmaVersion": 8
+        "ecmaVersion": 8,
     },
     "rules": {
         "max-len": ["error", {
@@ -61,7 +60,6 @@ module.exports = {
         "no-floating-decimal": "error",
         "no-implied-eval": "error",
         "no-lone-blocks": "error",
-        "no-magic-numbers": ["error", { "ignore": [-1, 0, 1, 2, 500, 1000, 5, 10, 20, 25] }],
         "no-new-func": "error",
         "no-self-assign": "error",
         "no-self-compare": "error",
@@ -80,7 +78,6 @@ module.exports = {
         "func-call-spacing": ["error", "never"],
         "computed-property-spacing": ["error", "never"],
         "yoda": "error",
-        "no-undefined": "error",
         "new-cap": "error",
         "new-parens": "error",
         "no-lonely-if": "error",
@@ -130,6 +127,8 @@ module.exports = {
             { "blankLine": "always", "prev": ["class", "function", "directive", "cjs-import"], "next": "*" },
             { "blankLine": "never", "prev": "directive", "next": "directive" },
             { "blankLine": "never", "prev": "cjs-import", "next": "cjs-import" },
-        ]
+        ],
+        "lines-between-class-members": "error",
+        "padded-blocks": ["error", "never"],
     }
 };
