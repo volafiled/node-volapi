@@ -35,5 +35,9 @@ v2.0
  - Related: new `connected` event, that happens when the connection is truly
    open and ready. May occur after other events (such as initial file events)
  - The `upload_timeout` event was renamed to `upload_blocked`.
- - `Room.report()`
+ - New `Room.report()` method.
  - `Room.janitor` property, indicating your own janitorness
+ - `Room.setConfig` was renamed to `Room.updateConfig`. Never was a public API.
+ - New `Room.setConfig` method.
+ - New `Room.transferOwner` method.
+ - New `Room.addJanitor`/`Room.removeJanitor` methods.
