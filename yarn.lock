@@ -83,10 +83,10 @@ cookie@^0.3.1:
   resolved "https://registry.yarnpkg.com/cookie/-/cookie-0.3.1.tgz#e7e0a1f9ef43b4c8ba925c5c5a96e806d16873bb"
   integrity sha1-5+Ch+e9DtMi6klxcWpboBtFoc7s=
 
-debug@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-4.1.0.tgz#373687bffa678b38b1cd91f861b63850035ddc87"
-  integrity sha512-heNPJUJIqC+xB6ayLAMHaIrmN9HKa7aQO8MGqKpvCA+uJYVcvR6l5kgdrhRuwPFHU7P5/A1w0BjByPHwpfTDKg==
+debug@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-4.1.1.tgz#3b72260255109c6b589cee050f1d516139664791"
+  integrity sha512-pYAIzeRo8J6KPEaJ0VWOh5Pzkbw/RetuzehGM7QRRX5he4fPHx2rdKMB256ehJCkX+XRQm16eZLqLNS8RSZXZw==
   dependencies:
     ms "^2.1.1"
 
@@ -102,15 +102,15 @@ delayed-stream@~1.0.0:
   resolved "https://registry.yarnpkg.com/delayed-stream/-/delayed-stream-1.0.0.tgz#df3ae199acadfb7d440aaae0b29e2272b24ec619"
   integrity sha1-3zrhmayt+31ECqrgsp4icrJOxhk=
 
-docdash@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/docdash/-/docdash-1.0.0.tgz#5b7df10fed3d341fc4416a8978c65ad561869d18"
-  integrity sha512-HhK72PT4z55og8FDqskO/tTYXxU+LovRz+9pCDHLnUoPchkxjdIJidS+96LqW3CLrRdBmnkDRrcVrDFGLIluTw==
+docdash@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/docdash/-/docdash-1.0.3.tgz#1ca4d37940275f05f926c1326cde36d88b9f3fbc"
+  integrity sha512-gPepWBPJSWK70PRqOtxLvZ2FLJlw49DZASs73yqmM7uM45WEygQJmHPBrrQ9eLeEkgPKUzDv+sr2SHgQS1OQ0g==
 
-engine.io-client@^3.3.0:
-  version "3.3.0"
-  resolved "https://registry.yarnpkg.com/engine.io-client/-/engine.io-client-3.3.0.tgz#e21b7a26e856f47f9b0ddf4b36c6b77b63cef8d4"
-  integrity sha512-NLewuiNiU97xa8XlII8uI5zVIBehZgA6OPSAnYve+3KANlW2OnOxIpa70UcRROKNOhKFC/7p82sZO1i7ix8QCQ==
+engine.io-client@^3.3.2:
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/engine.io-client/-/engine.io-client-3.3.2.tgz#04e068798d75beda14375a264bb3d742d7bc33aa"
+  integrity sha512-y0CPINnhMvPuwtqXfsGuWE8BB66+B6wTtCofQDRecMQPYX3MYUZXFNKDhdrSe3EVjgOu4V3rxdeqN/Tr91IgbQ==
   dependencies:
     component-emitter "1.2.1"
     component-inherit "0.0.3"

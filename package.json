@@ -19,13 +19,13 @@
   "license": "MIT",
   "dependencies": {
     "cookie": "^0.3.1",
-    "debug": "^4.1.0",
-    "engine.io-client": "^3.3.0",
+    "debug": "^4.1.1",
+    "engine.io-client": "^3.3.2",
     "form-data": "^2.3.3",
     "node-fetch": "^2.3.0"
   },
   "devDependencies": {
-    "docdash": "^1.0.0",
+    "docdash": "^1.0.3",
     "global-request-logger": "^0.1.1",
     "jsdoc": "^3.5.4"
   }
