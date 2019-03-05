@@ -26,7 +26,6 @@
   },
   "devDependencies": {
     "docdash": "^1.0.3",
-    "global-request-logger": "^0.1.1",
     "jsdoc": "^3.5.4"
   }
 }

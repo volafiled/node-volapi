@@ -149,13 +149,6 @@ form-data@^2.3.3:
     combined-stream "^1.0.6"
     mime-types "^2.1.12"
 
-global-request-logger@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/global-request-logger/-/global-request-logger-0.1.1.tgz#839a126537031e33b7e1ac077608b4d7995b01fe"
-  integrity sha1-g5oSZTcDHjO34awHdgi015lbAf4=
-  dependencies:
-    lodash "~2.4.1"
-
 graceful-fs@^4.1.9:
   version "4.1.11"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
@@ -214,11 +207,6 @@ klaw@~2.0.0:
   integrity sha1-WcEo4Nxc5BAgEVEZTuucv4WGUPY=
   dependencies:
     graceful-fs "^4.1.9"
-
-lodash@~2.4.1:
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-2.4.2.tgz#fadd834b9683073da179b3eae6d9c0d15053f73e"
-  integrity sha1-+t2DS5aDBz2hebPq5tnA0VBT9z4=
 
 marked@~0.3.6:
   version "0.3.19"
